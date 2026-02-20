@@ -15,7 +15,7 @@
     function (e) {
       if (
         location.pathname.replace(/^\//, "") ==
-          this.pathname.replace(/^\//, "") &&
+        this.pathname.replace(/^\//, "") &&
         location.hostname == this.hostname
       ) {
         var target = $(this.hash);
@@ -443,7 +443,7 @@ if (contactForm) {
     const address = document.getElementById("contactAddress").value;
     const phone = document.getElementById("contactPhone").value;
     const msg = document.getElementById("contactMsg").value;
-    const companyName= null;
+    const companyName = null;
 
 
 
@@ -501,7 +501,7 @@ if (msdsForm) {
     const address = document.getElementById("msdsAddress").value;
     const phone = document.getElementById("msdsPhone").value;
     const msg = document.getElementById("msdsMsg").value;
-    const companyName=document.getElementById("msdsCompanyName").value;
+    const companyName = document.getElementById("msdsCompanyName").value;
 
     const data = {
       data: {
@@ -576,7 +576,7 @@ enquiryBtn.addEventListener('click', openModal);
 
 
 // to keep detalis tag close in mabile navbaar 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const detailsElement = document.querySelector('details');
 
   function updateDetailsState() {
@@ -594,5 +594,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // for whatsaap massege
 function openWhatsApp() {
-  window.open('https://wa.me/9848389154?&text=Hello team Mahidhara, I am interested in your products.', '_blank'); 
+  window.open('https://wa.me/9848389154?&text=Hello team Mahidhara, I am interested in your products.', '_blank');
 }
